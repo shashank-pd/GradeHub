@@ -1,0 +1,264 @@
+.hidden {
+  display: none;
+}
+
+::selection {
+  background: hsl(45, 100%, 72%);
+  color: hsl(0, 0%, 7%);
+}
+
+:focus {
+  outline-color: hsl(45, 100%, 72%);
+}
+
+
+body {
+  background: hsl(0, 0%, 7%);
+  padding-top: 130px;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  padding: 10px;
+  background-color: hsla(240, 1%, 17%, 0.75);
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+
+}
+
+.navbar-link {
+  color: hsl(0, 0%, 98%);
+  font-size: 17px;
+  padding: 20px;
+  transition: 0.25s ease;
+}
+
+.navbar-link:hover {
+  color: hsla(0, 0%, 84%, 0.7);
+}
+
+
+.navbar-link:hover,
+.navbar-link:focus {
+  color: hsla(0, 0%, 84%, 0.7);
+}
+
+.navbar-link.active {
+  color: hsl(45, 100%, 72%);
+}
+
+
+
+/* MAIN CONTENT */
+
+.cgpa {
+
+  background: hsl(240, 2%, 12%);
+  border: 1px solid hsl(0, 0%, 22%);
+  padding: 70px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: hsl(0, 0%, 98%);
+  max-width: 650px;
+  max-height: 650px;
+  margin: auto;
+}
+
+#result,
+#result_2 {
+  color: hsl(45, 100%, 72%);
+  text-align: center;
+
+}
+
+.heading-1,
+.caption {
+  font-size: 1.9em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+th,
+td {
+  border: 1px solid hsla(0, 0%, 84%, 0.7);
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.original,
+.obtain,
+.weight,
+.grade,
+.credit {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: hsla(240, 1%, 17%, 0.75);
+  border: none;
+  color: hsl(0, 0%, 84%);
+}
+
+#more {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#cal {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#cal_2 {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#set {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add margin between buttons */
+#more,
+#set,
+#cal {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.input-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form-input {
+  color: hsl(0, 0%, 100%);
+  background-color: hsla(240, 1%, 17%, 0.75);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 13px 20px;
+  border: 1px solid hsl(0, 0%, 22%);
+  border-radius: 14px;
+  outline: none;
+  width: 550px;
+}
+
+.form-input::placeholder {
+  font-weight: 500;
+}
+
+.form-input:focus {
+  border-color: hsl(45, 100%, 72%);
+}
+
+textarea.form-input {
+  min-height: 100px;
+  height: 130px;
+  max-height: 200px;
+  resize: vertical;
+  margin-bottom: 25px;
+  
+}
+
+textarea.form-input::-webkit-resizer {
+  display: none;
+}
+
+.form-input:focus:invalid {
+  border-color: hsl(0, 100%, 50%);
+}
+
+.form-btn {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to bottom right,
+      hsl(240, 1%, 25%) 3%,
+      hsla(0, 100%, 50%, 0) 97%);
+  color: hsl(45, 100%, 72%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: 14px;
+  font-size: 14px;
+  box-shadow: 0 16px 40px hsla(0, 0%, 0%, 0.25);
+  z-index: 1;
+  transition: 0.25s ease;
+}
+
+
+.form-btn:hover {
+  background: linear-gradient(to bottom right,
+      hsla(45, 87%, 58%, 0.345) 0%,
+      hsla(0, 0%, 0%, 0) 50%);
+}
+.form-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+

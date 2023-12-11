@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weightage Calculator</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+
+<body>
+  <!--NAV BAR-->
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li class="navbar-item">
+        <a class="navbar-link" target="_blank" href="cgpa.html">CGPA Calculator</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link active" href="weightage.html">Weightage Calculator</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" target="_blank" href="feedback.html">Feedback</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="result" class="hidden">
+    <h2>
+      &#11045; You have scored 
+      <strong><span id="gpa"></span></strong>
+      Out of <span id="obt"></span>
+      &#11045;
+    </h2>
+  </div>
+
+  <div class="cgpa">
+    <form id="containner">
+      <table id="myTable">
+        <caption class="heading-1">
+          Weightage Calculator
+        </caption>
+        <tr>
+          <th>Maximum Original Marks On Paper</th>
+          <th>Marks Obtainted On Paper</th>
+          <th>Maximum Weightage Marks</th>
+        </tr>
+        <tr>
+          <td><input type="number" class="original" /></td>
+          <td><input type="number" class="obtain" /></td>
+          <td><input type="number" class="weight" /></td>
+        </tr>
+      </table>
+      <input type="reset"id="set" />
+      <button type="button" id="cal_2">Submit</button>
+    </form>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  
+
+</body>
+
+</html>

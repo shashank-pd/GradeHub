@@ -37,31 +37,18 @@ body {
 
 /* NAVBAR */
 
-.navbar {
+/* .navbar {
+
   position: fixed;
-  width: 100%;
-  z-index: 9999;
+  width: 97.5%;
   top: 0;
   padding: 10px;
-  background-color: hsla(240, 1%, 17%, 0.75);
+  background-color: hsl(240, 1%, 17%);
   margin-bottom: 20px;
   border-radius: 20px;
-}
+} */
 
-.navbar-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 10px;
 
-}
-
-.navbar-link {
-  color: hsl(0, 0%, 98%);
-  font-size: 17px;
-  padding: 20px;
-  transition: 0.25s ease;
-}
 
 .navbar-link:hover {
   color: hsla(0, 0%, 84%, 0.7);
@@ -163,7 +150,6 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-top: 10px;
   padding: 10px;
   background-color: #4CAF50;
-  ;
   color: white;
   border: none;
   cursor: pointer;
@@ -181,7 +167,7 @@ input[type="number"]::-webkit-outer-spin-button {
 /* Add margin between buttons */
 #more,
 #set,
-#cal {
+#cal,#cal_2 {
   margin-top: 50px;
   margin-right: 30px;
 }
@@ -219,7 +205,7 @@ textarea.form-input {
   max-height: 200px;
   resize: vertical;
   margin-bottom: 25px;
-  
+
 }
 
 textarea.form-input::-webkit-resizer {
@@ -255,10 +241,182 @@ textarea.form-input::-webkit-resizer {
       hsla(45, 87%, 58%, 0.345) 0%,
       hsla(0, 0%, 0%, 0) 50%);
 }
+
 .form-btn:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
+.navbar {
+  position: fixed;
+  width: 98.8%;
+  top: 0;
+  height: 60px;
+  padding-top: 10px;
+  background-color: hsl(240, 1%, 17%);
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+
+}
+
+.navbar-link {
+  color: hsl(0, 0%, 98%);
+  font-size: 17px;
+  padding: 20px;
+  transition: 0.25s ease;
+}
+
+@media (max-width: 1024px) {
+
+  .navbar {
+    width: 98.5%;
+
+  }
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    width: 98%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .navbar {
+    width: 97.5%;
+  }
+}
+
+@media (max-width: 516px) {
+
+  .navbar {
+    width: 97%;
+
+  }
+
+  .navbar-list {
+    padding: 0 0;
+
+  }
+
+  .navbar-link {
+    padding: 15px;
+  }
+
+  .cgpa {
+    padding: 40px;
+
+  }
+}
+
+@media (max-width: 468px) {
+
+  .navbar {
+    width: 96.5%;
+  }
+  .navbar-link {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  #more,
+#set,
+#cal {
+  margin-top: 50px;
+  margin-left: 6px;
+}
+.cgpa {
+  padding: 10px;
+
+}
+  
+}
+
+@media (max-width: 418px) {
+
+#more,
+#set,
+#cal,#cal_2 {
+  margin-top: 50px;
+  margin-left: 1px;
+}
+
+.navbar-link {
+  padding: 15px;
+  font-size: 12px;
+}
+
+  
+}
+
+@media (max-width: 360px) {
+  
+  .navbar-link {
+    padding: 10px;
+    font-size: 11px;
+  }
+  }
 
 
+  @media (max-width: 306px) {
+    
+    .navbar-link {
+      padding: 10px;
+      font-size: 11px;
+    }
+    }
+
+  
+
+/* @media (max-width: 300px) {
+
+  .navbar-link {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .cgpa {
+    padding: 770px;
+  
+  }
+
+  #more,
+#set,
+#cal,#cal_2 {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#more {
+  margin-top: 10px;
+  padding: 5px;
+  
+}
+#set {
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: -25px;
+  
+}
+
+#cal {
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: -25px;
+}
+#cal_2 {
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: -25px;
+  
+}
+
+
+} */

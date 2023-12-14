@@ -95,29 +95,3 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
-
-$(document).ready(function() {
-  // Function to handle the toggle
-  function toggleNavbar() {
-    $('.navbar').slideToggle(306, 'easeInOutCubic');
-  }
-
-  $('.navbar').hide();
-  // Toggle the visibility of navbar links when the menu icon is clicked
-  if ($(window).width() <= 306) {
-    $('#menu-icon').click(toggleNavbar);
-  }
-
-  // Update the event handler on window resize
-  $(window).resize(function() {
-    if ($(window).width() <= 306) {
-      $('#menu-icon').unbind('click', toggleNavbar); // Unbind to avoid multiple event bindings
-      $('#menu-icon').click(toggleNavbar);
-    } else {
-      $('#menu-icon').unbind('click', toggleNavbar);
-      $('.navbar').removeAttr('style');  // Remove inline styles for larger screens
-    }
-  });
-});
-
-

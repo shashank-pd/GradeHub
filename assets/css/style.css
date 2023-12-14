@@ -260,14 +260,6 @@ textarea.form-input::-webkit-resizer {
   transition: 0.25s ease;
 }
 
-#menu-icon {
-  display: none;
-  position: fixed;
-  top: 10px;
-  cursor: pointer;
-  color: hsl(45, 100%, 72%)
-}
-
 @media (max-width: 1024px) {
 
   .navbar {
@@ -281,6 +273,9 @@ textarea.form-input::-webkit-resizer {
   .navbar {
     width: 98%;
   }
+  .form-input {
+    width: 480px;
+}
 }
 
 @media (max-width: 600px) {
@@ -288,6 +283,9 @@ textarea.form-input::-webkit-resizer {
   .navbar {
     width: 97.5%;
   }
+  .form-input {
+    width: 440px;
+}
 }
 
 @media (max-width: 516px) {
@@ -310,6 +308,9 @@ textarea.form-input::-webkit-resizer {
     padding: 40px;
 
   }
+  .form-input {
+    width: 420px;
+}
 }
 
 @media (max-width: 468px) {
@@ -334,6 +335,9 @@ textarea.form-input::-webkit-resizer {
     padding: 10px;
 
   }
+  .form-input {
+    width: 340px;
+}
 
 }
 
@@ -351,6 +355,9 @@ textarea.form-input::-webkit-resizer {
     padding: 15px;
     font-size: 12px;
   }
+  .form-input {
+    width: 290px;
+}
 
 }
 
@@ -388,9 +395,12 @@ textarea.form-input::-webkit-resizer {
     margin-left: -25px;
 
   }
+  .form-input {
+    width: 210px;
+}
 }
 
-
+/* 
 @media (max-width: 306px) {
 
 
@@ -412,17 +422,11 @@ textarea.form-input::-webkit-resizer {
     border-radius: 20px;
   }
 
-
-
   .navbar-item {
     padding-right: 35px;
     padding-bottom: 50px;
   }
 
- 
-  #menu-icon {
-  display: block;
-  }
 
   #more {
   margin-top: 10px;
@@ -448,4 +452,4 @@ textarea.form-input::-webkit-resizer {
   padding: 5px;
   margin-left: -25px;
   }
-}
+} */

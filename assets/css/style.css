@@ -13,7 +13,7 @@
 
 
 body {
-  background: hsl(0, 0%, 7%);
+  background: #1a1a1a;;
   padding-top: 130px;
 }
 
@@ -118,7 +118,7 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 10px;
   background-color: #008CBA;
   color: white;
-  border: none;
+  border: 1px solid #008CBA;
   cursor: pointer;
 }
 
@@ -127,7 +127,7 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 10px;
   background-color: #4CAF50;
   color: white;
-  border: none;
+  border: 1px solid #4CAF50;
   cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 10px;
   background-color: #4CAF50;
   color: white;
-  border: none;
+  border: 1px solid #4CAF50 ;
   cursor: pointer;
 }
 
@@ -145,7 +145,7 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 10px;
   background-color: red;
   color: white;
-  border: none;
+  border: 1px solid red;
   cursor: pointer;
 }
 
@@ -157,6 +157,15 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-top: 50px;
   margin-right: 30px;
 }
+
+#more:hover,
+#set:hover,
+#cal:hover {
+    border-color: hsl(45, 100%, 72%); /* Change border color on hover for enabled state */
+  }
+
+
+
 
 .input-wrapper {
   display: grid;

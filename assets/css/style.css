@@ -13,7 +13,7 @@
 
 
 body {
-  background: #1a1a1a;;
+  background: #1a1a1a;
   padding-top: 130px;
 }
 
@@ -112,22 +112,22 @@ input[type="number"]::-webkit-outer-spin-button {
   border: none;
   color: hsl(0, 0%, 84%);
 }
-
+/* 
 #more {
   margin-top: 10px;
   padding: 10px;
-  background-color: #008CBA;
+  background-color: #0000007e;
   color: white;
-  border: 1px solid #008CBA;
+  border: 1px solid white;
   cursor: pointer;
 }
 
 #cal {
   margin-top: 10px;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #63BB66;
   color: white;
-  border: 1px solid #4CAF50;
+  border: 1px solid white;
   cursor: pointer;
 }
 
@@ -136,24 +136,30 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 10px;
   background-color: #4CAF50;
   color: white;
-  border: 1px solid #4CAF50 ;
+  border: 1px solid white ;
   cursor: pointer;
 }
 
 #set {
   margin-top: 10px;
   padding: 10px;
-  background-color: red;
+  background-color: #FF8585;
   color: white;
-  border: 1px solid red;
+  border: 1px solid white;
   cursor: pointer;
-}
+} */
 
 /* Add margin between buttons */
 #more,
 #set,
 #cal,
 #cal_2 {
+  margin-top: 10px;
+  padding: 10px;
+  background: linear-gradient(to bottom right, hsl(240, 1%, 25%) 3%, hsla(0, 100%, 50%, 0) 97%);
+  color: hsl(45, 100%, 72%);
+  border: 1px solid white;
+  cursor: pointer;
   margin-top: 50px;
   margin-right: 30px;
 }

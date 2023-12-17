@@ -46,26 +46,33 @@
   </div>
 
   <div class="cgpa">
-    <form id="containner">
-      <table id="myTable">
-        <caption class="heading-1">
-          Weightage Calculator
-        </caption>
-        <tr>
-          <th>Maximum Original Marks On Paper</th>
-          <th>Marks Obtainted On Paper</th>
-          <th>Maximum Weightage Marks</th>
-        </tr>
-        <tr>
-          <td><input type="number" class="original" /></td>
-          <td><input type="number" class="obtain" /></td>
-          <td><input type="number" class="weight" /></td>
-        </tr>
-      </table>
-      <input type="reset"id="set" />
-      <button type="button" id="cal_2">Submit</button>
+    <form id="container">
+        <table id="myTable">
+            <caption class="heading-1">
+                Weightage Calculator
+            </caption>
+            <tr>
+                <th>
+                    <label for="maxOriginalMarks">Maximum Original Marks On Paper</label>
+                </th>
+                <th>
+                    <label for="marksObtained">Marks Obtained On Paper</label>
+                </th>
+                <th>
+                    <label for="maxWeightageMarks">Maximum Weightage Marks</label>
+                </th>
+            </tr>
+            <tr>
+                <td><input type="number" class="original" id="maxOriginalMarks" name="maxOriginalMarks" /></td>
+                <td><input type="number" class="obtain" id="marksObtained" name="marksObtained" /></td>
+                <td><input type="number" class="weight" id="maxWeightageMarks" name="maxWeightageMarks" /></td>
+            </tr>
+        </table>
+        <input type="reset" id="set" />
+        <button type="button" id="cal_2">Submit</button>
     </form>
-  </div>
+</div>
+
   
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="./assets/js/script.js"></script>

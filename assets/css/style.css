@@ -50,6 +50,12 @@ body {
   color: hsl(45, 100%, 72%);
 }
 
+.heading{
+  color: hsl(0, 0%, 98%);
+  text-align: center;
+  
+
+}
 
 
 /* MAIN CONTENT */

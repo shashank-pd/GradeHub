@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /feedback
 
-https://srm-cgpa-calculator.netlify.app/sitemap.xml
+Sitemap: https://srm-cgpa-calculator.netlify.app/sitemap.xml

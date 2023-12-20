@@ -4,13 +4,13 @@
         <loc>https://srm-cgpa-calculator.netlify.app/feedback</loc>
         <lastmod>2023-12-19T15:41:08Z</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.8</priority>
+        <priority>1.0</priority>
     </url>
     <url>
         <loc>https://srm-cgpa-calculator.netlify.app/</loc>
         <lastmod>2023-12-19T15:41:08Z</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.8</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://srm-cgpa-calculator.netlify.app/weightage</loc>

@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://srm-cgpa-calculator.netlify.app/sitemap.xml

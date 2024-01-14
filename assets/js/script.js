@@ -47,7 +47,6 @@ function calculate(event) {
 
   var gpa = (points / sum_credits);
   $("#result").removeClass("hidden");
-  // Display GPA in numerical format
   $("#gpa").text(gpa.toFixed(2));
   window.scrollTo(0, 0);
 }
@@ -57,15 +56,10 @@ function calculate(event) {
 
 $(document).ready(function () {
   $("#cal_2").on("click", function () {
-    // Get the values from the input fields
     var maxOriginalMarks = parseFloat($(".original").val());
     var marksObtained = parseFloat($(".obtain").val());
     var maxWeightageMarks = parseFloat($(".weight").val());
-
-    // Calculate the weighted score
     var weightedScore = (marksObtained / maxOriginalMarks) * maxWeightageMarks;
-
-    // Display the result
     $("#result #gpa").text(weightedScore.toFixed(2));
     $("#result #obt").text(maxWeightageMarks.toFixed(2));
     $("#result").removeClass("hidden");

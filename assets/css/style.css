@@ -118,42 +118,7 @@ input[type="number"]::-webkit-outer-spin-button {
   border: none;
   color: hsl(0, 0%, 84%);
 }
-/* 
-#more {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #0000007e;
-  color: white;
-  border: 1px solid white;
-  cursor: pointer;
-}
 
-#cal {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #63BB66;
-  color: white;
-  border: 1px solid white;
-  cursor: pointer;
-}
-
-#cal_2 {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: 1px solid white ;
-  cursor: pointer;
-}
-
-#set {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #FF8585;
-  color: white;
-  border: 1px solid white;
-  cursor: pointer;
-} */
 
 /* Add margin between buttons */
 #more,
@@ -420,57 +385,3 @@ textarea.form-input::-webkit-resizer {
     width: 210px;
 }
 }
-
-/* 
-@media (max-width: 306px) {
-
-
-  .navbar-link {
-    padding: 0px;
-    font-size: 16px;
-  }
-
-
-  .navbar {
-    position: absolute;
-    height: 520px;
-    top: 10%;
-    right: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: hsl(240, 1%, 17%);
-    border-radius: 20px;
-  }
-
-  .navbar-item {
-    padding-right: 35px;
-    padding-bottom: 50px;
-  }
-
-
-  #more {
-  margin-top: 10px;
-  padding: 5px;
-
-  }
-
-  #set {
-  margin-top: 10px;
-  padding: 5px;
-  margin-left: -25px;
-
-  }
-
-  #cal {
-  margin-top: 10px;
-  padding: 5px;
-  margin-left: -25px;
-  }
-
-  #cal_2 {
-  margin-top: 10px;
-  padding: 5px;
-  margin-left: -25px;
-  }
-} */

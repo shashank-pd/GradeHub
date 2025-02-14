@@ -1,5 +1,5 @@
 
-# CGPA and Weightage Calculator
+# GradeHub
 
 
 Welcome to my project showcasing a comprehensive GPA (CGPA) and Weightage calculator, designed to simplify academic calculations!  🎓
@@ -7,6 +7,16 @@ Welcome to my project showcasing a comprehensive GPA (CGPA) and Weightage calcul
 ## 📚 Overview
 
 This repository contains a web-based CGPA (Cumulative Grade Point Average) calculator and a Weightage calculator. These calculators are designed to assist students in calculating their CGPA based on their grades and credits or calculating their weighted score based on original marks, obtained marks, and weightage marks. Use the feedback form to provide valuable insights and suggestions for improvement.
+
+## Screenshot
+
+### 1. Web View  
+![image](https://github.com/user-attachments/assets/2a1ebba3-1f17-4c2d-8add-276fdad37fc5)
+
+### 2. Mobile View  
+![image](https://github.com/user-attachments/assets/46c38573-871c-4fef-8bd1-b817f73d9bc3)
+
+
 ## 🚀 Project Showcase
 
 **CGPA Calculator**
@@ -26,13 +36,7 @@ This repository contains a web-based CGPA (Cumulative Grade Point Average) calcu
 - **Reset:** Reset the form with the "Reset" button.
 
 - **Submission:** Calculate the weighted score by clicking the "Submit" button.
-## 🌐 Live Demos
 
-- [CGPA Calculator](https://twitter.com/) 📊
-
-- [Weightage Calculator](https://twitter.com/) ⚖️
-
-- [Feedback Form](https://twitter.com/) 📝
 ## 🛠️ Technologies Used
 
 - HTML
@@ -48,18 +52,25 @@ This repository contains a web-based CGPA (Cumulative Grade Point Average) calcu
 - Dynamic and user-friendly interface.
 - Easy navigation with a responsive navbar.
 - Real-time feedback validation in the form.
-## 🖼️Icons
+  
+## 🖼️ Icons
 The project uses Ionicons for visual elements. Check out Ionicons for more details.
 
-## 🚀Favicon
+## 🚀 Favicon
 
 The project has a custom favicon for better identification.
 
-## 🎨Styles
+## 🎨 Styles
 
 CSS styles are organized for a clean and responsive design. Media queries ensure a good user experience across various devices.
 
-## ⚙️Dependencies 
+## ⚙️ Dependencies 
 
 - **jQuery:** Used for simplifying DOM manipulation.
 - **Ionicons:** Provides a collection of high-quality icons.
+  
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
